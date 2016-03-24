@@ -65,8 +65,8 @@ public class DeDupTest
    */
   public void testRemoveDuplicatesEmptyArray() {
     DeDup dd2 = new DeDup();
-    int[] empty = emptyArray;
-    int[] answer = dd2.removeDuplicates(empty);
+    final int[] empty = emptyArray;
+    final int[] answer = dd2.removeDuplicates(empty);
     assertEquals(emptyArray.length,answer.length);
   }
 
