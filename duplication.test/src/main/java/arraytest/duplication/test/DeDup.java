@@ -28,7 +28,7 @@ public class DeDup {
     final DeDup ddThree = new DeDup();
     final int[] ri3 = ddThree.randomIntegers;
     final int[] answer3 = ddThree.removeDuplicatesSort(ri3);
-      
+     
   }
 
   /**
@@ -62,7 +62,7 @@ public class DeDup {
   public int[] removeDuplicatesHashSet(int[] randomInts) {
 
     final int ending = randomInts.length;
-    HashSet<Integer> hashSet = new HashSet<>();
+    HashSet<Integer> hashSet = new HashSet<Integer>();
     for (int y = 0; y < ending; y++) {
       hashSet.add(randomInts[y]);
     }
